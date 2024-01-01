@@ -1,0 +1,140 @@
+body {
+    color: #343a40;
+    background-color: #f1f3f5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+ }
+
+ .menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #343a40;
+
+ }
+ .menu li {
+display: inline-block;
+ }
+
+ .menu a {
+    display: inline-block;
+    color: #f1f3f5;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-style: normal;
+    
+ }
+
+ .menu a:hover,
+ .menu a:focus,
+ .menu a:active {
+    background-color:#19702a;
+ }
+
+ h1 {
+    font-size: 70px;
+    color: #343a40;
+    font-weight: bolder;
+    margin: 0;
+    text-shadow: 0 10px 30px #f4fce3;
+     }
+
+ h2 {
+    color: #19702a;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+     }
+
+ h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+   color: #19702a;
+   font-style: italic;
+}
+
+.header {
+    background-image: url(obrazky/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:  150px 30px;
+}
+
+.dekorace {
+background-color: #adb5bd;
+text-align: left;
+}
+
+.tabulka {
+background-color: #adb5bd;
+vertical-align: middle;
+}
+
+.tabulka h3 {
+    text-align: left;
+}
+
+.dekorace h3 {
+    clear:left
+}
+
+.weby {
+background-color: #adb5bd;
+}
+
+.dekorace img {
+float: left;
+margin: 0 30px 30px 0
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 2px solid #343a40;
+    ;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #343a40;
+    color: #f1f3f5;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.venec,
+.kokedamy,
+.rasokoule,
+.obraz {
+    height: 150px;
+    width: 230px;
+    border: 2px solid #343a40;
+    border-radius: 0px 10px 10px 10px;
+
+}
+
+table {
+    border-spacing: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tabulka_mezera {
+    padding-left: 50px;
+}
+
+th,
+td {
+border-bottom: 1px solid #343a40;  
+padding: 10px 0;  
+}
+
+section{
+    padding: 25px 10%;
+}
